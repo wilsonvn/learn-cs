@@ -1,19 +1,16 @@
-# Learn Computer Science
+# Computer Science
 
-Here I list the content and curriculum to help you self-study about Computer Science in a standard way. With the development of technology and distribution of quality content from leading universities, self-learners have the opportunity to access this source of knowledge without any cost. This is our lifelong learning opportunity.
+## Prerequisite Knowledge
 
- #### Repository status: IN PROGRESS
- 
- ## Overall Subjects
- 
-| Subject        | Why Study          |
-|:---------------|:-------------------|
-| Programming    | Don’t be the person who “never quite understood” something like recursion. |
-| Computer Architecture | If you don’t have a solid mental model of how a computer actually works, all of your higher-level abstractions will be brittle.|
-| Algorithms and Data Structures | If you don’t know how to use ubiquitous data structures like stacks, queues, trees, and graphs, you won’t be able to solve hard problems.|
-| Math for CS | CS is basically a runaway branch of applied math, so learning math will give you a competitive advantage. |
-| Operating Systems | Most of the code you write is run by an operating system, so you should know how those interact. |
-| Computer Networking | The Internet turned out to be a big deal: understand how it works to unlock its full potential. |
-| Databases | Data is at the heart of most significant programs, but few understand how database systems actually work. | 
-| Languages and Compilers | If you understand how languages and compilers actually work, you’ll write better code and learn new languages more easily. |
-| Distributed Systems | These days, most systems are distributed systems. | 
+#### C(++) Language
+- [ ] [Learn C the Hard Way: A Clear & Direct Introduction To Modern C Programming](https://learning.oreilly.com/library/view/learn-c-the/9780133124385/)
+- [ ] [C++ Crash Course](https://learning.oreilly.com/library/view/c-crash-course/9781098122553/)
+- [ ] [C++20 Fundamentals](https://learning.oreilly.com/videos/c-20-fundamentals/9780136875185)
+
+#### How computers process a program
+- [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+- [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
+- [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
+- [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
+- [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+
