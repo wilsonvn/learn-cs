@@ -6,6 +6,29 @@ HTML được phát triển ban đầu với mục đích nhằm xác định c�
 
 Bây giờ, HTML được sử dụng rộng rãi như một ngôn ngữ nền để định dạng trang web như một thông tin cố định.
 
+* HTML là viết tắt của Hyper Text Markup Language (ngôn ngữ đánh dấu siêu văn bản)
+* HTML mô tả cấu trúc của một trang web
+* HTML bao gồm các phần tử.
+* Phần tử HTML giúp trình duyệt xác định cách hiển thị nội dung web.
+* Các phần tử HTML được biểu diễn thông qua các tag (thẻ)
+* Các tag HTML dán nhãn các mảnh nội dung như "heading" (tiêu đề), "paragraph" (đoạn), "table" (bảng), v.v...
+* Các trình duyệt không hiển thị các tag HTML, mà sử dụng chúng để hiển thị nội dung của trang
+
+## Một tài liệu HTML đơn giản
+
+* Thuộc tính <!DOCTYPE html> định nghĩa đây là tài liệu HTML5
+* Thuộc tính <html> là phần tử root (gốc) của một trang HTML
+* Thuộc tính <head> chứa thông tin meta về tài liệu
+* Thuộc tính <title> xác định title (tiêu đề trang) cho tài liệu
+* Thuộc tính <body> chứa thông tin meta (thông tin tự mô tả) của tài liệu
+* Thuộc tính <h1> định nghĩa một heading (đề mục) lớn
+* Thuộc tính <p> định nghĩa một paragraph (đoạn văn)
+
+#### Tại sao cần dùng Thẻ <!DOCTYPE> trong HTML
+
+* [Viblo - Thẻ <!DOCTYPE> trong HTML](https://viblo.asia/p/the-doctype-trong-html-1Je5EmOw5nL)
+* [CodeHub - Tại sao lại cần phải dùng thẻ DOCTYPE](https://www.codehub.vn/Tai-sao-lai-can-phai-dung-the-DOCTYPE)
+
 ## FORM VALIDATION
 
 Một vài trường dữ liệu khi tạo biểu mẫu nên cần được thu thập dưới góc độ bắt buộc. Vậy nên cần một quy tắc thực thi cho việc đó.
@@ -112,65 +135,3 @@ Ngoài ra, người ta còn sử dụng thẻ `<div`> để bọc những nội
     - Đối với thẻ `<header>`, nó có thể chứa thông tin giới thiệu về element chứa nó (thường là các section).
     - Đối với thẻ `<footer>`, nó có thể chứa những thông tin mở rộng cũng cho element chứa nó, tùy thuộc element đó là gì.
 
-```html
-<!DOCTYPE html>
-<html>
- <head>
-   <title>VR Article</title>
-  </head>
-  
- <body>
-   <div>
-     <header>
-       <h1>Experience VR</h1>
-       <p>A simple blog about virtual reality experience</p>
-       
-       <nav>
-         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/#about">About</a></li>
-          <li><a href="/#articles">Articles</a></li>
-          <li><a href="/#contact">Contact</a></li>
-         </ul>
-        </nav>
-      </header>
-      
-     <article id="vr-articles">
-       <header>
-         <h2>VR Article </h2>
-         <p>By: Harley</p>
-         <p>Publish: June 19, 2018</p>
-       </header>
-       
-       <img src="../../img/vr-user.jpg" alt="User trying a VR headset">
-       
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus urna lacus, ut lacinia elit pretium a. Praesent rutrum ac ipsum vitae rhoncus. Nam non molestie purus.</p>
-       <aside>
-        <q>This is a pull quote from the VR Article...</q>
-       </aside>
-       <p>Nunc imperdiet, dui in varius eleifend, magna enim imperdiet felis, at ultricies magna metus vitae ante. Nulla in porttitor nibh. Mauris non libero in massa porta varius non sed magna. Donec ac mauris mattis, viverra turpis ac, dictum arcu.</p>
-       <p>Vivamus molestie laoreet viverra. Ut ac fringilla ex. Donec at nisl semper, commodo mi maximus, fermentum nisi. Duis bibendum gravida ante sit amet consectetur. Curabitur ac est id justo euismod porta quis ac arcu.</p>
-     </article>
-     
-     <aside>
-      <h3>More Article About VR</h3>
-       <ol>
-        <li><a href="#">Make a VR Game</a></li>
-        <li><a href="#">Learn VR in Unity</a></li>
-        <li><a href="#">Build Users Interfaces in VR</a></li>
-       </ol>
-       <blockquote>
-        "Virtual reality was once the dream of science fiction. But the internet was also once a dream, and so were computers and smartphones. The future is coming."  
-       <footer>
-         - <cite><a href="https://www.facebook.com/zuck/posts/10101319050523971">Mark Zuckerberg</a></cite>
-       </footer>
-         </blockquote>
-     </aside>
-     
-    <footer>
-     <p>&copy;2018 Experience VR, The Blog</p> 
-    </footer>
-  </div>
-  </body>
-</html>
-```
