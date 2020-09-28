@@ -16,13 +16,13 @@ Bây giờ, HTML được sử dụng rộng rãi như một ngôn ngữ nền �
 
 ## Một tài liệu HTML đơn giản
 
-* Thuộc tính <!DOCTYPE html> định nghĩa đây là tài liệu HTML5
-* Thuộc tính <html> là phần tử root (gốc) của một trang HTML
-* Thuộc tính <head> chứa thông tin meta về tài liệu
-* Thuộc tính <title> xác định title (tiêu đề trang) cho tài liệu
-* Thuộc tính <body> chứa thông tin meta (thông tin tự mô tả) của tài liệu
-* Thuộc tính <h1> định nghĩa một heading (đề mục) lớn
-* Thuộc tính <p> định nghĩa một paragraph (đoạn văn)
+* Thuộc tính `<!DOCTYPE html>` định nghĩa đây là tài liệu HTML5.
+* Thuộc tính `<html>` là phần tử root (gốc) của một trang HTML.
+* Thuộc tính `<head>` chứa thông tin meta về tài liệu.
+* Thuộc tính `<title>` xác định title (tiêu đề trang) cho tài liệu.
+* Thuộc tính `<body>` chứa thông tin meta (thông tin tự mô tả) của tài liệu.
+* Thuộc tính `<h1>` định nghĩa một heading (đề mục) lớn.
+* Thuộc tính `<p>` định nghĩa một paragraph (đoạn văn).
 
 #### Tại sao cần dùng Thẻ <!DOCTYPE> trong HTML
 
@@ -124,8 +124,6 @@ Thẻ `<div>` là thẻ không hề có Semantic meaning. Nó chỉ dùng đ�
 Ví dụ như phần intro của trang web, nó không thể nằm trên header cũng không thể nằm trong main, khi ấy ta sử dụng thẻ div để bọc các thông tin đó lại.
 
 Ngoài ra, người ta còn sử dụng thẻ `<div`> để bọc những nội dung cần format giống nhau bằng CSS, cũng như tách trang thành từng phần nhỏ, để trình duyệt có thể render từng phần 1, tăng tốc độ hiển thị đến người dùng thay vì phải load toàn bộ trang mới render.
-
-### Thẻ `<figure>` và `<figcaption>`
 
 ### Thẻ `<header>` và `<footer>`
 
