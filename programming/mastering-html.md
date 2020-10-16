@@ -133,3 +133,13 @@ Ngoài ra, người ta còn sử dụng thẻ `<div`> để bọc những nội
     - Đối với thẻ `<header>`, nó có thể chứa thông tin giới thiệu về element chứa nó (thường là các section).
     - Đối với thẻ `<footer>`, nó có thể chứa những thông tin mở rộng cũng cho element chứa nó, tùy thuộc element đó là gì.
 
+### Table
+
+Một số thẻ cơ bản để tạo bảng là:
+* `<table>`: Thẻ mẹ để chứa toàn bộ bảng.
+* `<tr>`: tạo một hàng trong bản.
+* `<th>`: Tạo ra tiêu đề của từng cột.
+* `<td>`: Tạo ra các ô trong hàng.
+
+Để tạo một ô bắc cầu nhiều hơn một cột, hãy sử dụng thuộc tính `colspan`. Để tạo ô bắc cầu nhiều hơn một hàng, hãy sử dụng thuộc tính `rowspan`.
+
